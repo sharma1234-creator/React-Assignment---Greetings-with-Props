@@ -1,8 +1,8 @@
 import React from "react";
 
-function Welcome(prop){
+function Welcome(props){
   return (<div>
-          <h1>Hey!, {prop.name}</h1>
+          <h1>Hey!{props.name}</h1>
           <h2>Welcome to Newton School.</h2>
           </div>
          );
